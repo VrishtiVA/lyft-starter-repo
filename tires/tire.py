@@ -1,7 +1,7 @@
 
 from abc import ABC, abstractmethod
 
-class Battery(ABC):
+class Tire(ABC):
 
     @abstractmethod
     def needs_service(self):
